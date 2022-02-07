@@ -7,6 +7,10 @@
     <title> Vinanti | Gallery</title>
 </head>
 <body>
-    <h1> Halaman Gallery </h1>
+@extends('layouts.main')    
+
+@section('container')
+    <h1>Halaman Gallery</h1>
+@endsection 
 </body>
 </html>
