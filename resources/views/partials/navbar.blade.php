@@ -13,13 +13,21 @@
           <a class="nav-link {{ ( $tittle === 'About') ? 'active' : '' }}" href="/about">About</a>
           </li>
           <li class="nav-item">
-          <a class="nav-link {{ ( $tittle === 'Home') ? 'active' : '' }}" href="/gallery">Gallery</a>
+          <a class="nav-link {{ ( $tittle === 'Gallery') ? 'active' : '' }}" href="/gallery">Gallery</a>
           </li>
           <li class="nav-item">
           <a class="nav-link {{ ( $tittle === 'Contacts') ? 'active' : '' }}" href="/contacts">Contact Us</a>
           </li>
           
-      </ul>
+          </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="{{route ('login')}}">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{route ('register')}}">Register</a>
+            </li>
+          </ul>
       </div>
   </div>
 </nav>
